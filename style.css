@@ -1,0 +1,30 @@
+.blue{
+  background-color: rgb(22, 41, 92);
+  color: rgb(230, 220, 220);
+}
+
+.img-x{
+  height: 50hv;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  
+}
+
+.get-started{
+  background-color: rgb(11, 184, 241);
+  border-radius: 10px;
+  color: white;
+}
+
+.watch{
+  background: none;
+  border: none;
+  color: antiquewhite;
+}
+
+button{
+  color: white;
+  background: none;
+  border: none;
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+<body class="debug">
+  
+  <!--navbar-->
+  <header class="container-fluid">
+    <div class="row">
+      <div class=" blue col-6">
+        <h3>Nova</h3>
+      </div>
+      <div class="text-end blue col-6">
+        <button>Home</button>
+        <button>About</button>
+        <button>Services</button>
+        <button>Portfolio</button>
+        <button>Team</button>
+        <button>Blog</button>
+        <button>Dropdown</button>
+        <button>Contact</button>
+
+      </div>
+  </div>
+    <section class="row blue ">
+      <div class="col-4 bg-blue text-center">
+        <h1>Focus on What Matters</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus architecto incidunt cumque ex quis, odit provident illum! Placeat perferendis veniam corrupti pariatur, eum ducimus!</p>
+        <button class="get-started">Get Started</button>
+        <button class="watch">Watch Video</button>
+      </div>
+      <div class="col-8">
+        <img class="img-fluid img-x" src="assets/team-build.jpg" alt="">
+
+
+      </div>
+    </section>
+
+  </header>
+  
+
+
+  <!--main content-->
+<main>
+  <section class="row">
+    <div div class="col-12">
+      <h1 class="text-center p-5">Why choose us</h1>
+    </div>
+    <div div class="col-4">
+      <img class="img-fluid" src="assets/team-build.jpg" alt="">
+    </div>
+    
+    <div class="col-8 align-items-center justify-content-center flex-column p-5">
+      <div class="row flex-column align-items-center mx-5">
+        <div class="col-8">
+          <h3>Lorem ipsum dolor sit.</h3>
+        </div>
+        <div class="col-8">
+          <p class="mr-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur! Ipsam, fuga!</p>
+        </div>
+        <div class="col-8">
+          <p class="mr-5 text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vitae asperiores eius necessitatibus, earum deserunt repudiandae deleniti nemo.</p>
+        </div>
+      </div>
+    
+    </div>
+    
+
+
+  </section>
+  <!--secondary content-->
+  <section class="row d-flex">
+    <div class="col-12 p-3">
+      <h1>Our Services</h1>
+    </div>
+    <div class="col-4">
+      <p class="fw-bold"> lorem ipsum</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+  <div class="col-4">
+    <p class="fw-bold"> lorem ipsum</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+  <div class="col-4">
+    <p class="fw-bold"> lorem ipsum</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+  <div class="col-4">
+    <p class="fw-bold"> lorem ipsum</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+  <div class="col-4">
+    <p class="fw-bold"> lorem ipsum</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+  <div class="col-4">
+    <p class="fw-bold"> lorem ipsum</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+   
+    
+  </section>
+  
+  <!--center banner-->
+  <section class="row d-flex">
+<h1>Lorem ipsum dolor sit.</h1>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga optio dolorum architecto.</p>
+<button>Call to action</button>
+  </section>
+  
+  <!--below banner-->
+  <section class="row d-flex">
+    <div class="col-8">
+      <div class="row">
+        <h4>test</h4>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+      </div>
+      <div class="row">
+        <h4>test</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex perferendis suscipit expedita optio ea cupiditate?</p>
+        <button>test</button>
+      </div>
+    </div>
+<div class="col-4">
+  <img class="img-fluid" src="./Assets/team-build.jpg" alt="">
+</div>
+  </section>
+  
+  <!--read more section-->
+  <section class="row d-flex p-5">
+<div class="col-12 text-center">
+  <h1>Recent Blog Posts</h1>
+</div>
+<div class="col-3">
+  <img src="./Assets/team-build.jpg" alt="" class="img-fluid">
+  <p>Johnny Smith 12/12</p>
+    <h5>Lorem ipsum dolor sit amet.</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aliquam!</p>
+    <button class="btn">Read More -></button>
+</div>
+<div class="col-3">
+  <img src="./Assets/team-build.jpg" alt="" class="img-fluid">
+  <p>Johnny Smith 12/12</p>
+  <h5>Lorem ipsum dolor sit amet.</h5>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aliquam!</p>
+  <button class="btn">Read More -></button>
+</div>
+<div class="col-3">
+  <img src="./Assets/team-build.jpg" alt="" class="img-fluid">
+  <p>Johnny Smith 12/12</p>
+  <h5>Lorem ipsum dolor sit amet.</h5>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aliquam!</p>
+  <button class="btn">Read More -></button>
+</div>
+<div class="col-3">
+  <img src="./Assets/team-build.jpg" alt="" class="img-fluid">
+  <p>Johnny Smith 12/12</p>
+  <h5>Lorem ipsum dolor sit amet.</h5>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aliquam!</p>
+  <button class="btn">Read More -></button>
+</div>
+  </section>
+  
+</main>
+  <!--links-->
+  <section class="row d-flex">
+    <div class="col-4">
+      <h3>Nova</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem autem natus nulla deleniti. Veritatis sunt nihil incidunt nisi, debitis odit.</p>
+
+    </div>
+    <div class="col-8"> <!-- nesting begins here-->
+      <div class="row">
+        <div class="col-4">
+        <h5>useful links</h5>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+        </div>
+        <div class="col-4">
+          <h5>useful links</h5>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum.</p>
+        </div>
+        <div class="col-4">
+          <h5>useful links</h5>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
+  <footer>
+    <section class="row text-center">
+      <div class="col-12">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+    </section>
+  </footer>
+  
+</body>
+</html>
